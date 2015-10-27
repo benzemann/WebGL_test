@@ -106,8 +106,13 @@ function loadImage(path, image){
 	// loads image
 	image = new Image();
 	
+<<<<<<< HEAD
 	image.crossOrigin = '';
 	image.src = "https://github.com/benzemann/WebGL_test/blob/master/" + path;
+=======
+	image.crossOrigin = 'anonymous';
+	image.src = "https://dl.dropboxusercontent.com/u/11766236/" + path;
+>>>>>>> refs/remotes/origin/master
 	
 	image.onload = function ()
     {
