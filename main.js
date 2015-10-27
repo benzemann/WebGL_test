@@ -107,7 +107,7 @@ function loadImage(path, image){
 	image = new Image();
 	
 	image.crossOrigin = 'anonymous';
-
+	console.log("hej");
 	image.src = "https://dl.dropboxusercontent.com/u/11766236/Assets/" + path;
 	
 
