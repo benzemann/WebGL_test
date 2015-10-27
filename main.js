@@ -107,7 +107,7 @@ function loadImage(path, image){
 	image = new Image();
 	
 	image.crossOrigin = 'anonymous';
-	image.src = "https://dl.dropboxusercontent.com/u/11766236/" + path;
+	image.src = "https://dl.dropboxusercontent.com/u/11766236/Assets/" + path;
 	
 	image.onload = function ()
     {
