@@ -107,13 +107,10 @@ function loadImage(path, image){
 	image = new Image();
 	
 	image.crossOrigin = 'anonymous';
-<<<<<<< HEAD
-	image.src = "https://dl.dropboxusercontent.com/u/11766236/" + path;
 
-=======
 	image.src = "https://dl.dropboxusercontent.com/u/11766236/Assets/" + path;
 	
->>>>>>> refs/remotes/origin/master
+
 	image.onload = function ()
     {
 		checkCompletedAsset();
