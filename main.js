@@ -109,6 +109,7 @@ function loadImage(path, image){
 	image.crossOrigin = 'anonymous';
 	image.src = "https://dl.dropboxusercontent.com/u/11766236/Assets/" + path;
 	
+
 	image.onload = function ()
     {
 		checkCompletedAsset();
